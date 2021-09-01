@@ -6,3 +6,6 @@ pyTigerGraph is a Python package for connecting to TigerGraph databases. To inst
 ```pip install pyTigerGraph```
 
 For more information go to the [pyTigerGraph project description page](https://pypi.org/project/pyTigerGraph/).
+
+Bhardaway - update. 10:40am
+
