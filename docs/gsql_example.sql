@@ -34,6 +34,8 @@ END
 ## run it
 RUN LOADING JOB load_social
 
+## run gsql client remotely
+alias gsql="java -jar <path>/gsql_client.jar"
 
 ## REST API call to discover topology - vertex and edge
 #get vertex cardinality
