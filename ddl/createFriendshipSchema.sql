@@ -32,8 +32,8 @@ CREATE  TABLE friendships (
 
 
 ## Load from csv
-LOAD DATA LOCAL INFILE '/Users/roberthardaway/githome/TG-jupyter-101/data/people.csv' INTO TABLE people FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS (nameId,name,gender,age,language);
-LOAD DATA LOCAL INFILE '/Users/roberthardaway/githome/TG-jupyter-101/data/friendships.csv' INTO TABLE friendships FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS (p1,p2,dateMet);
+LOAD DATA LOCAL INFILE '../data/people.csv' INTO TABLE people FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS (nameId,name,gender,age,language);
+LOAD DATA LOCAL INFILE '../data/friendships.csv' INTO TABLE friendships FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' IGNORE 1 ROWS (p1,p2,dateMet);
 
 
 

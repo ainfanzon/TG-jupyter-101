@@ -8,8 +8,9 @@ working_dir=`pwd`
 
 echo ''
 echo "Current working directory is: ${working_dir}"
+echo ''
 
-mysql --local-infile=1 -u root -p friends < ${working_dir}/../ddl/createFriendshipSchema.sql
+mysql --local-infile=1 -u root -p < ${working_dir}/../ddl/createFriendshipSchema.sql
 
 echo ''
 echo 'Mysql setup complete..'
