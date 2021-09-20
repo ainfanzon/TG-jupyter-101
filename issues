@@ -1,0 +1,11 @@
+## potenial issues with solution
+
+- GSQL seems to have concurrency issues
+    - Create graph commands blocks other commands
+    - drop all is pretty extreme
+
+-- conn.getVertexStats('City')
+   returns an exception if no data has been loaded
+
+
+

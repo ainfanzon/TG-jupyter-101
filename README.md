@@ -13,4 +13,8 @@ This is my update at 9:44
 
 last test change
 
+<<<<<<< HEAD
 Another test
+=======
+bob 9/2 - still struggling
+>>>>>>> 5c47c454378466106280d623814212b34dc2eb83

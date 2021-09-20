@@ -1,0 +1,100 @@
+tconst	ordering	nconst	category	job	characters
+tt0000001	1	nm1588970	self	\N	["Self"]
+tt0000001	2	nm0005690	director	\N	\N
+tt0000001	3	nm0374658	cinematographer	director of photography	\N
+tt0000002	1	nm0721526	director	\N	\N
+tt0000002	2	nm1335271	composer	\N	\N
+tt0000003	1	nm0721526	director	\N	\N
+tt0000003	2	nm1770680	producer	producer	\N
+tt0000003	3	nm1335271	composer	\N	\N
+tt0000003	4	nm5442200	editor	\N	\N
+tt0000004	1	nm0721526	director	\N	\N
+tt0000004	2	nm1335271	composer	\N	\N
+tt0000005	1	nm0443482	actor	\N	["Blacksmith"]
+tt0000005	2	nm0653042	actor	\N	["Assistant"]
+tt0000005	3	nm0005690	director	\N	\N
+tt0000005	4	nm0249379	producer	producer	\N
+tt0000006	1	nm0005690	director	\N	\N
+tt0000007	1	nm0179163	actor	\N	\N
+tt0000007	2	nm0183947	actor	\N	\N
+tt0000007	3	nm0005690	director	\N	\N
+tt0000007	4	nm0374658	director	\N	\N
+tt0000007	5	nm0249379	producer	producer	\N
+tt0000008	1	nm0653028	actor	\N	["Sneezing Man"]
+tt0000008	2	nm0005690	director	\N	\N
+tt0000008	3	nm0374658	cinematographer	\N	\N
+tt0000009	1	nm0063086	actress	\N	["Miss Geraldine Holbrook (Miss Jerry)"]
+tt0000009	2	nm0183823	actor	\N	["Mr. Hamilton"]
+tt0000009	3	nm1309758	actor	\N	["Chauncey Depew - the Director of the New York Central Railroad"]
+tt0000009	4	nm0085156	director	\N	\N
+tt0000010	1	nm0525910	director	\N	\N
+tt0000011	1	nm3692297	actor	\N	["Acrobats"]
+tt0000011	2	nm0804434	director	\N	\N
+tt0000012	1	nm2880396	self	\N	["Self"]
+tt0000012	2	nm9735580	self	\N	["Self"]
+tt0000012	3	nm0525900	self	\N	["Self"]
+tt0000012	4	nm9735581	self	\N	["Self"]
+tt0000012	5	nm0525908	director	\N	\N
+tt0000012	6	nm0525910	director	\N	\N
+tt0000012	7	nm9735579	self	\N	["Self"]
+tt0000012	8	nm9653419	self	\N	["Self"]
+tt0000013	1	nm0525908	self	\N	["Self"]
+tt0000013	2	nm1715062	self	\N	["Self"]
+tt0000013	3	nm0525910	director	\N	\N
+tt0000014	1	nm0166380	actor	\N	["The Gardener"]
+tt0000014	2	nm0244989	actor	\N	["The Boy"]
+tt0000014	3	nm0525910	director	\N	\N
+tt0000015	1	nm0721526	director	\N	\N
+tt0000016	1	nm0525900	self	\N	["Self (on the pier)"]
+tt0000016	2	nm9735581	self	\N	["Self (on the pier)"]
+tt0000016	3	nm0525910	director	\N	\N
+tt0000017	1	nm3691272	actor	\N	["The boy"]
+tt0000017	2	nm3692829	actress	\N	["The girl"]
+tt0000017	3	nm1587194	director	\N	\N
+tt0000017	4	nm0804434	director	\N	\N
+tt0000018	1	nm3692071	actor	\N	["The Boxer"]
+tt0000018	2	nm0804434	director	\N	\N
+tt0000019	1	nm0932055	director	\N	\N
+tt0000020	1	nm0010291	director	\N	\N
+tt0000020	2	nm0666972	producer	producer	\N
+tt0000022	1	nm0525910	director	\N	\N
+tt0000023	1	nm0525910	director	\N	\N
+tt0000024	1	nm0256651	self	\N	["Self - Empress of Gemany"]
+tt0000024	2	nm0435118	self	\N	["Self - Emperor of Germany"]
+tt0000024	3	nm0010291	director	\N	\N
+tt0000024	4	nm0666972	producer	producer	\N
+tt0000025	1	nm0010291	director	\N	\N
+tt0000025	2	nm0666972	producer	producer	\N
+tt0000026	1	nm2350007	actor	\N	["Valet"]
+tt0000026	2	nm0525907	actor	\N	["Man playing cards, seated on the left"]
+tt0000026	3	nm1151424	actor	\N	["Man playing cards, seated on the right"]
+tt0000026	4	nm2354154	actor	\N	["Man playing cards, seated in the middle"]
+tt0000026	5	nm0525910	director	\N	\N
+tt0000027	1	nm0525910	director	\N	\N
+tt0000028	1	nm2350838	self	\N	["Self"]
+tt0000028	2	nm0525908	self	\N	["Self"]
+tt0000028	3	nm0525910	director	\N	\N
+tt0000029	1	nm0525908	self	\N	["Self"]
+tt0000029	2	nm0525900	self	\N	["Self"]
+tt0000029	3	nm2350838	self	\N	["Self"]
+tt0000029	4	nm0525910	director	\N	\N
+tt0000030	1	nm0010291	director	\N	\N
+tt0000030	2	nm0666972	director	\N	\N
+tt0000031	1	nm0525910	director	\N	\N
+tt0000032	1	nm3692479	actress	\N	["The dancer"]
+tt0000032	2	nm0804434	director	\N	\N
+tt0000033	1	nm0525910	director	\N	\N
+tt0000034	1	nm0617588	director	\N	\N
+tt0000035	1	nm0617588	director	\N	\N
+tt0000036	1	nm0420198	actor	\N	["Rip Van Winkle"]
+tt0000036	2	nm0005690	director	\N	\N
+tt0000036	3	nm0410331	writer	story "Rip Van Winkle"	\N
+tt0000036	4	nm0005658	cinematographer	\N	\N
+tt0000037	1	nm0617588	director	\N	\N
+tt0000038	1	nm2960633	self	\N	["Self - First baseman"]
+tt0000038	2	nm0340719	self	\N	["Self"]
+tt0000038	3	nm2958402	self	\N	["Self"]
+tt0000038	4	nm0374658	director	\N	\N
+tt0000039	1	nm0666972	producer	producer	\N
+tt0000040	1	nm0617588	director	\N	\N
+tt0000041	1	nm0525910	director	\N	\N

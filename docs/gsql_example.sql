@@ -34,6 +34,8 @@ END
 ## run it
 RUN LOADING JOB load_social
 
+## run gsql client remotely
+alias gsql="java -jar <path>/gsql_client.jar"
 
 ## REST API call to discover topology - vertex and edge
 #get vertex cardinality
@@ -149,6 +151,8 @@ create query hello(vertex<person> p) for graph social{
 install query hello
 '''))
 
+## ldbc explore - relation between PERSOn and COMMENT
+Person:p -((LIKES>|<HAS_CREATOR):e)- Comment:c 
 
 ## built in queries
 curl -X POST 'http://localhost:9000/builtins/social' -d  '{"function":"stat_vertex_number","type":"*"}'  | jq .
@@ -164,6 +168,23 @@ curl -X POST -d '{"vertices":{"person":{"Stan":{"name":{"value":"Stan"}}}}}' "ht
 
 ## AdminPortal - create secret
 ## socialSecret = 0bnapjt8m6o7utvo9femnd9pjkn7kg68
+
+## MyGraph secret = d2nj52924cfj69i8rtk1lppd3d5d5e9f
+
+password=TigerG123 (no bang)
+
+
+## recommender secret = 1cet65nsufrn8h9n17c50hacrjl2dh71
+curl -X GET 'https://se-pytg-demo.i.tgcloud.io:9000/requesttoken?secret=1cet65nsufrn8h9n17c50hacrjl2dh71'
+
+## response is
+{"code":"REST-0000","expiration":1633657507,"error":false,"message":"Generate new token successfully.","token":"i0jk694v10286ppp1ei1jgteh9u1e5a3"}
+token is: i0jk694v10286ppp1ei1jgteh9u1e5a3
+
+## make request with token
+curl -H "Authorization: Bearer i0jk694v10286ppp1ei1jgteh9u1e5a3" \
+"https://se-python-demo.i.tgcloud.io:9000/graph/Recommender/vertices/MOVIE?limit=10&select=name"
+
 
 ## gen token
 curl -X GET -H "Authorization: Bearer 0bnapjt8m6o7utvo9femnd9pjkn7kg68" 'https://localhost:9000'
