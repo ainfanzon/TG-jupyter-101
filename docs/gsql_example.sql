@@ -13,6 +13,13 @@ CREATE VERTEX person (
 )
 END
 
+pyTiger query
+conn.runInterpretedQuery('''
+  INTERPRET QUERY () FOR GRAPH social {
+    PRINT "Hello World"; 
+}
+''')
+
 ## Create EDGEs betwen PERSONs
 CREATE UNDIRECTED EDGE friendship (FROM person, TO person, connect_day DATETIME)
 
@@ -179,7 +186,9 @@ curl -X GET 'https://se-pytg-demo.i.tgcloud.io:9000/requesttoken?secret=1cet65ns
 
 ## response is
 {"code":"REST-0000","expiration":1633657507,"error":false,"message":"Generate new token successfully.","token":"i0jk694v10286ppp1ei1jgteh9u1e5a3"}
-token is: i0jk694v10286ppp1ei1jgteh9u1e5a3
+cloud secret (Recommender) is: hhetpj1970s8goqf5i5tir8cqiflhqoa
+aws secret = 2da080dfao4um5ijhej96thmi8sn4fat
+
 
 ## make request with token
 curl -H "Authorization: Bearer i0jk694v10286ppp1ei1jgteh9u1e5a3" \

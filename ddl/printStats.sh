@@ -6,4 +6,5 @@ echo '    - IMDB'
 echo '    - LDBC'
 echo ''
 
-mysql -v -u root -p < ~/githome/TG-jupyter-101/ddl/printStats.sql
+mysql -v -u root -p < ~/githome/TG-jupyter-101/ddl/printIMDBStats.sql
+mysql -v -u root -p < ~/githome/TG-jupyter-101/ddl/printRecommendationStats.sql
