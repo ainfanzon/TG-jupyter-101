@@ -30,6 +30,7 @@ exit 0
 mysql --local-infile=1 -uroot -p < ${working_dir}/createLDBCSchema.sql
 mysql --local-infile=1 -uroot -p < ${working_dir}/createFriendshipSchema.sql
 mysql --local-infile=1 -uroot -p < ${working_dir}/createIMDBSchema.sql
+mysql --local-infile=1 -uroot -p < ${working_dir}/createRecommendationsSchema.sql
 
 echo ''
 echo 'Mysql setup complete..'
