@@ -25,3 +25,5 @@ SELECT count(*) from links;
 
 
 ##select count(distinct nameId) from people;
+
+##delete from ratings where movieId not in (select distinct tconst from titles);
