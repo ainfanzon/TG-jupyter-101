@@ -1,0 +1,48 @@
+Demo Script - Graph AI
+
+Personas
+	Alex - Old school data engineer, familar with RDBMS, EDW/OLAP
+	Bob - Nex gen architect, focused on business value solutions
+
+Intro [Alex] Hi, I'm Alex and joined by Bob, we are here to provide an introduction to building recommendation systems on TG
+
+[Bob] In today's world, enterprises must leverage data more effectively and efficiently. In Alex's day, volumes were measured in Mega maybe Giga bytes and results such as reports and models took months and longer to deploy. Today, we routinely deal with Tera and turn-around is measured in minutes or seconds
+
+[Alex] Here is the TG Architecture - enterprise platform for graph based solutions
+
+	Today, we will also leverage Docker to deploy our work in a kubernetes container
+	and pyTigerGraph which is a python packages to integrate TG and a Python env, like Jupyter
+
+[Bob] These tools will allow us to develop a solution quickly and also be able to migrate to a large-scale prod env
+
+	So, Step 0 - lets set things up by creating and executing a docker container
+
+[Alex] Next STEP 1, we will setup the python env by loading available packages (pip3)
+
+[Bob] Step 2 - connect to TG - we can connect to any env, local container, TGCloud or any other cloud instance
+
+	Today, just use basic authentication, BUT OAuth2 fully supported
+
+[Alex] Step 3 - Design a schema. In TG, this involves defining Vertexes, Edges, and Graphs
+
+	ls - provides a complete catalog on the system
+
+[Bob] Step 4 - load some data, CSV is very easy, TG also supports server side integration, such as with AWS S3
+
+	Next, use a very popular python DS library Pandas: we can map the input data for a Pandas DataFrame
+	Simpel example, we have 11 people and 10 friendships, just to illustrate
+
+	upsertVertexDataFrame - API call from pyTG
+
+[Alex] - Step 5 - explore
+	Ready to explore, lots of good API calls
+	get some stats on the graph
+
+[Bob] Step 6 write queries
+	For those of you old-farts, like Alex, pyTG supports simple SQL execution
+	But you can also begin to drill deeper into the graph using TG library features (hops)
+
+[Alex] - we can start to answer questions, like friends of friends, ....
+
+[Bob] Summary - in just a few minutes we were able to ......
+
